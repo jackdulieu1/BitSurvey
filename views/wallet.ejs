@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+
+
+<div>
+
+    <div class="text-center wallet-container">
+        <h6><span class="confirmed-balance"></span>BSV<br>£<span class="gbp-balance"></span></h6>
+
+        <p><span class="mnemonic" style="display:none;"><%=mnemonic%></span></p>
+        <div class="qr-code-container">
+            <button class="btn btn-outline-light qr-code-button">Toggle QR</button><br>
+            <a id="qr-code" class="qr-code"></a></div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="scripts/wallet.js"></script>
+
+<%- include('partials/footer') %>

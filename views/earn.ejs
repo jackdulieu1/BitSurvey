@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+
+<div class="card earn-container">
+    <form method="post">
+        <form method="post">
+            <div class="item question-item">
+                <p class="earn-question"><%= question %></p>
+            </div>
+            <div class="item earn-item" id="a1">
+                <input id="a1r" value="a1" type="radio" name="answer" class="radio">
+                <p><%= answer1 %></p>
+            </div>
+            <div class="item earn-item" id="a2">
+                <input id="a2r" value="a2" type="radio" name="answer" class="radio">
+                <p><%= answer2 %></p>
+            </div>
+            <div class="item earn-item" id="a3">
+                <input id="a3r" value="a3" type="radio" name="answer" class="radio">
+                <p><%= answer3 %></p>
+            </div>
+            <div class="item earn-item" id="a4">
+                <input id="a4r" value="a4" type="radio" name="answer" class="radio">
+                <p><%= answer4 %></p>
+            </div>
+            <div class="item">
+                <div class="left-submit">
+                    <p><span style="color:#007bff;">Reward: </span><span id="rewardAmount"><%=reward%></span>
+                        Satoshis</p>
+                </div>
+                <div class="right-submit">
+                    <input type="submit" name="answer" class="btn btn-primary" id="submit-button">
+                </div>
+            </div>
+        </form>
+    </form>
+</div>
+
+
+<script src="/scripts/earn.js"></script>
+
+<%- include('partials/footer') %>

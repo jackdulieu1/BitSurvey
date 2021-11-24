@@ -1,0 +1,286 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background: linear-gradient(to top, #33ccff 0%, #3366ff 100%);
+    color: white;
+}
+
+.fa-bitcoin {
+    font-size: 4rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 45px 0 35px 25px;
+}
+
+.container-fluid {
+    padding: 1% 7%;
+}
+
+.navbar-brand {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+
+}
+
+.navbar {
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-family: "Montserrat";
+}
+
+.row1 {
+    padding-top: 50px;
+
+}
+
+/* title image */
+
+
+
+/* section 2 */
+
+#features {
+    background-color: white;
+    position: relative;
+
+}
+
+.easy {
+
+  text-align: center;
+  padding: 150px 45px 150px 65px;
+
+}
+
+.easy-head {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: bolder;
+
+}
+
+.icon {
+
+  font-size: 400%;
+  padding-bottom: 20px;
+
+}
+
+.fa-check-circle{
+  color: limegreen;
+}
+
+.fa-bolt{
+  color: #ffc700;
+}
+
+.fa-heart{
+  color: #ff4c68;
+
+}
+.icon:hover {
+  color: #33ccff;
+}
+
+.para {
+  color: grey;
+
+}
+
+hr{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+
+/* Explain Section  */
+#explain {
+  background-color: #f5f5f5;
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.works{
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 0px;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+
+}
+.carousel .carousel-indicators li {  background-color: black; }
+.carousel .carousel-indicators li.active { background-color: var(--primary); }
+
+.text-area{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+
+.photo-area{
+  display:inline-block;
+  vertical-align:middle;
+  padding-left: 100px;
+}
+
+.text-main{
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #33ccff;
+
+}
+
+.text-sub{
+  color: grey;
+
+
+}
+.registerphoto{
+  width: 450px;
+  height: 500px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+
+}
+
+
+/* Compose Section  */
+
+
+#compose{
+padding: 70px 0 70px 63px;
+background: linear-gradient(to bottom, #0099ff 0%, #ccffff 100%);
+color: white;
+}
+
+.compose-header{
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.compose-text{
+  color: grey;
+}
+
+.compose-sub{
+  text-decoration: underline;
+
+}
+
+
+/* benefits section */
+
+.benefits-title{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+
+.medium {
+  text-align: center;
+  padding: 100px 35px 100px 35px;
+}
+
+.fa-sliders-h{
+  color: limegreen;
+}
+
+.fa-server{
+  color: #ffc700;
+}
+
+
+.fa-user-friends{
+  color: #ff4c68;
+}
+
+
+
+/* cta */
+
+#cta {
+
+  background-color: white;
+  text-align: center;
+padding-top: 40px;
+ line-height: 1.5;
+
+
+}
+
+/* footer */
+
+#footer {
+
+  background: linear-gradient(to right, #33ccff 0%, #3366ff 100%);
+
+  padding: 30px 0 5px 0;
+  text-align: center;
+  color: white;
+
+
+}
+
+/* responsiveness */
+
+@media (max-width:991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+        margin: 25px;
+        padding: 25px;
+
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .text-t {
+        font-size: 1.5rem;
+    }
+
+}

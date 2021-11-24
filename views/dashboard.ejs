@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+<h2 class="dash-header">Welcome to your dashboard, <%=userFirstName%></h2>
+
+<p>The dashboard is the home screen that allows you to see how many questions you have answered and allows you to navigate to your wallet or to earn even more Bitcoin!</p>
+
+<p>Total number of questions answered so far: <%= numberAnswered %></p>
+<div class="buttons-container">
+    <a class="btn col-sm-3 btn-outline-light" href="/earn" role="button">Earn</a>
+    <a class="btn col-sm-3 btn-outline-light" href="/wallet" role="button">Wallet</a>
+    <a class="btn col-sm-3 btn-danger" href="/logout" role="button">Logout</a>
+</div>
+<p></p>
+
+
+<%- include('partials/footer') %>

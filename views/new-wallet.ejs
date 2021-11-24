@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="text-center">
+    <div class="box mnemonic-container">
+        <h2 id="headMnemonic">Your New Mnemonic is:</h2>
+        <form action="/new-wallet" method="POST">
+            <div class="form-group ">
+                    <input type="text" class="mnemonic form-control-plaintext text-center" name="mnemonic" readonly>
+                    <i style="cursor: pointer" class="fas fa-copy copy-mnemonic" data-clipboard-target=".mnemonic"></i><br>
+                <button type="submit" class="btn btn-outline-light">I have written it down! (Load my Wallet)</button>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<script src="/scripts/new-wallet.js"></script>
+
+<%- include("partials/footer") %>
